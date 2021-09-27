@@ -28,7 +28,6 @@ $playersArray=['Betão da FURIA Academy','Ranger Ex-Flamengo','Tinows da Pain Ga
 
 $rand_keys = array_rand($playersArray);
 
-if (str_contains($playersArray[$rand_keys],$timesArray[$randtimes]) == FALSE) : 
 
 
 $noticiasArray=['está de casa nova , é o novo contratado da '.$timesArray[$randtimes],'pode ser anunciado semana que vem na '.$timesArray[$randtimes],'faz parte da reformulação do elenco da '.$timesArray[$randtimes],'é o novo reforço pra próxima temporada da '.$timesArray[$randtimes],'estaria na Mira da '.$timesArray[$randtimes],'está fechado com a '.$timesArray[$randtimes].' até o fim do próximo split','teve o nome ventilado entre times da LCS','está cotado pra disputar o próximo split pela '.$timesArray[$randtimes],'foi cogitado para jogar na '.$timesArray[$randtimes].' o próximo split'
@@ -37,7 +36,6 @@ $noticiasArray=['está de casa nova , é o novo contratado da '.$timesArray[$ran
 
 $rand_keys2 = array_rand($noticiasArray);
 
-endif;
 
 
 
