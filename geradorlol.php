@@ -85,9 +85,14 @@ echo $noticia;
 Compartilhe sua Notícia
 <i class="fab fa-twitter"></i>
 </a>
+
 </center>
 <?php endif;?>
+<center>
+@lucasnatallopes - Twitter
+</center>
 </form>
+
 </div>
 </body>
 
