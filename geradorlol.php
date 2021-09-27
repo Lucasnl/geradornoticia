@@ -89,7 +89,7 @@ Compartilhe sua Notícia
 </center>
 <?php endif;?>
 <center>
-@lucasnatallopes - Twitter
+@natallnl - Twitter
 </center>
 </form>
 
