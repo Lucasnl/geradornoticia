@@ -17,7 +17,7 @@ body {
 
 
 
-$timesArray=['SKT1','Unicorns of Love','FURIA Academy','Rensga Academy','Pain Academy','Pain Gaming','FURIA','Rensga','LOUD','INTZ','Cloud9','Team Liquid','Equipe do Flamengo' ,'Kabum' , 'Netshoes Miners' ,'Red Canids','Vorax Libert','Isurus','Misfits','Mad Lions'];
+$timesArray=['CLG','RNG','Super Massive','SKT1','Unicorns of Love','FURIA Academy','Rensga Academy','Pain Academy','Pain Gaming','FURIA','Rensga','LOUD','INTZ','Cloud9','Team Liquid','Equipe do Flamengo' ,'Kabum' , 'Netshoes Miners' ,'Red Canids','Vorax Liberty','Isurus','Misfits','Mad Lions'];
 
 $fontesArray=['Conforme minhas fontes disseram,  o','Já está certo que o','Está confirmado que o','Foi apurado que o','Segundo fontes próximas o','Ao que tudo indica o','Fontes próximas do','Segundo o vazamento o','Conforme especulado o','Noticia Urgente ! o','Conforme apurei o','Em busca de novos ares o','Segundo fontes anonimas o','Se a notícia for confirmada o','A surpresa da noite é que o','A surpresa do dia é que o'];
 
