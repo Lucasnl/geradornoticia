@@ -24,17 +24,22 @@ $fontesArray=['Conforme minhas fontes disseram,  o','Já está certo que o','Est
 $randtimes = array_rand($timesArray);
 $randFontes = array_rand($fontesArray);
 
-
 $playersArray=['Betão da FURIA Academy','Ranger Ex-Flamengo','Tinows da Pain Gaming','Brtt da Pain Gaming','Mewkyo da LOUD','Damage da Rensga','RedBert do Flamengo','Netuno do Flamengo','Robo da Pain Gaming' ,'Kiari' ,'Trigo Ex-Rensga','Pobelter da CLG','Anyyy da FURIA','Titan da Red Canids','Shrimp Ex-Flamengo','Luci da Pain','Tutz do Flamengo','Parang do Flamengo','Cariok da Pain','Jean Mago do Flamengo Academy','Professor da INTZ','Micao da INTZ','Evrot da Kabum','Tay da LOUD','DudsTheBoy da LOUD','fnb da Vorax','Matsukaze da Vorax','Wos da Vorax','Faker da SKT1','Diamondprox Ex-FURIA','Deft da HLE','Chovy da HLE'];
+
+$rand_keys = array_rand($playersArray);
+
+if (str_contains($playersArray[$rand_keys],$timesArray[$randtimes]) == FALSE) : 
+
 
 $noticiasArray=['está de casa nova , é o novo contratado da '.$timesArray[$randtimes],'pode ser anunciado semana que vem na '.$timesArray[$randtimes],'faz parte da reformulação do elenco da '.$timesArray[$randtimes],'é o novo reforço pra próxima temporada da '.$timesArray[$randtimes],'estaria na Mira da '.$timesArray[$randtimes],'está fechado com a '.$timesArray[$randtimes].' até o fim do próximo split','teve o nome ventilado entre times da LCS','está cotado pra disputar o próximo split pela '.$timesArray[$randtimes],'foi cogitado para jogar na '.$timesArray[$randtimes].' o próximo split'
 ,'dispertou interesse de diversas equipes uma delas é a '.$timesArray[$randtimes],'deve ser anunciado logo mais como novo reforço da '.$timesArray[$randtimes],'deve disputar o próximo split pela '.$timesArray[$randtimes],'é o mais novo contratado para a line da '.$timesArray[$randtimes],'está em processo de negociação com a '.$timesArray[$randtimes],'é um nome forte pra fechar com a '.$timesArray[$randtimes]];
 
 
-
-
-$rand_keys = array_rand($playersArray);
 $rand_keys2 = array_rand($noticiasArray);
+
+endif;
+
+
 
 //echo $fontesArray[$randFontes]." player ".$playersArray[$rand_keys]." ".$noticiasArray[$rand_keys2];
 
@@ -68,8 +73,9 @@ $rand_keys2 = array_rand($noticiasArray);
 </center>
 <center>
 <?php 
-
 if(isset($_REQUEST['botao'])):
+
+  
 
 $noticia = $fontesArray[$randFontes]." player ".$playersArray[$rand_keys]." ".$noticiasArray[$rand_keys2];
 echo $noticia;
@@ -87,7 +93,8 @@ Compartilhe sua Notícia
 </a>
 
 </center>
-<?php endif;?>
+<?php endif;
+ ?>
 <center>
 @natallnl - Twitter
 </center>
